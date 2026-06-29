@@ -1,0 +1,7 @@
+#define MQTT_PORT 1883
+
+#define I2C_SPEED 400000
+
+#define DISPLAY_TIMEOUT 30000
+
+#define MQTT_QOS 0
