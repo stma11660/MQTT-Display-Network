@@ -8,6 +8,9 @@
 
 # 🇬🇧 English
 
+## Why this project came about
+MQTT Display Network was developed to display sensor data from an MQTT network easily and reliably on multiple small TFT displays. A single ESP8266 or ESP32 acts as a gateway and distributes the data via an I²C bus to any number of Arduino Nano display nodes. The goal is to provide an easy-to-understand, scalable, and resource-efficient open-source solution for Home Assistant, OpenHAB, Node-RED, and other MQTT-based systems.
+
 ## Overview
 
 MQTT Display Network is a distributed display system.
@@ -126,6 +129,10 @@ MIT License
 ---
 
 # 🇩🇪 Deutsch
+
+## Warum dieses Projekt entstanden ist
+
+MQTT Display Network wurde entwickelt, um Sensordaten aus einem MQTT-Netzwerk einfach und zuverlässig auf mehreren kleinen TFT-Displays darzustellen. Ein einzelner ESP8266 oder ESP32 fungiert als Gateway und verteilt die Daten über einen I²C-Bus an beliebig viele Arduino-Nano-Displayknoten. Das Ziel ist eine leicht verständliche, erweiterbare und ressourcenschonende Open-Source-Lösung für Home Assistant, OpenHAB, Node-RED und andere MQTT-basierte Systeme.
 
 ## Übersicht
 
