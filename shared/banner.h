@@ -1,13 +1,11 @@
-#pragma once
-
-namespace mdn
+namespace mdn::banner
 {
-    constexpr const char* PROJECT_NAME =
+    constexpr char PROJECT[] =
         "MQTT Display Network";
 
-    constexpr const char* PROJECT_TAGLINE =
+    constexpr char TAGLINE[] =
         "Distributed MQTT TFT Display System";
 
     constexpr char COPYRIGHT[] =
-    "Open Source Project";    
+        "Open Source Project";
 }
