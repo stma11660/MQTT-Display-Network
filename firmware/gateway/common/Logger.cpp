@@ -12,19 +12,19 @@ void begin()
 
 void info(const char* text)
 {
-    Serial.print("[INFO ] ");
+    Serial.print(F("[INFO ] "));
     Serial.println(text);
 }
 
 void warn(const char* text)
 {
-    Serial.print("[WARN ] ");
+    Serial.print(F("[WARN ] "));
     Serial.println(text);
 }
 
 void error(const char* text)
 {
-    Serial.print("[ERROR] ");
+    Serial.print(F("[ERROR] "));
     Serial.println(text);
 }
 
@@ -44,7 +44,7 @@ void banner()
 
     Serial.println(F(""));
     Serial.println(F(" Open Source Project"));
-    Serial.println(F(" Started 2026"));
+    Serial.println(F(" github.com/stma11660/MQTT-Display-Network"));
     Serial.println(F("========================================"));
     Serial.println();
 }
