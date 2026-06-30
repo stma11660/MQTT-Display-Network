@@ -1,20 +1,18 @@
-#ifndef CRC16_H
-#define CRC16_H
+#pragma once
 
 #include <Arduino.h>
 
-class CRC16
+namespace mdn
 {
-public:
-    static uint16_t compute(const uint8_t* data, size_t len)
+    inline uint16_t crc16(const uint8_t* data, size_t length)
     {
         uint16_t crc = 0xFFFF;
 
-        for (size_t i = 0; i < len; i++)
+        while (length--)
         {
-            crc ^= data[i];
+            crc ^= *data++;
 
-            for (uint8_t b = 0; b < 8; b++)
+            for (uint8_t i = 0; i < 8; i++)
             {
                 if (crc & 1)
                     crc = (crc >> 1) ^ 0xA001;
@@ -25,6 +23,4 @@ public:
 
         return crc;
     }
-};
-
-#endif
+}

@@ -1,7 +1,13 @@
-#define MQTT_PORT 1883
+#pragma once
 
-#define I2C_SPEED 400000
+/*
+ * Default configuration values
+ */
 
-#define DISPLAY_TIMEOUT 30000
+constexpr uint16_t DEFAULT_MQTT_PORT = 1883;
 
-#define MQTT_QOS 0
+constexpr uint32_t DEFAULT_I2C_CLOCK = 400000UL;
+
+constexpr uint32_t DISPLAY_TIMEOUT_MS = 30000UL;
+
+constexpr uint16_t SERIAL_BAUDRATE = 115200;

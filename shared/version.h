@@ -1,5 +1,7 @@
-#define FW_VERSION_MAJOR 2
-#define FW_VERSION_MINOR 0
-#define FW_VERSION_PATCH 0
+#pragma once
 
-#define PROTOCOL_VERSION 1
+#define MDN_VERSION_MAJOR 0
+#define MDN_VERSION_MINOR 1
+#define MDN_VERSION_PATCH 0
+
+#define MDN_VERSION_STRING "0.1.0"
