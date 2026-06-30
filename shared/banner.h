@@ -7,4 +7,7 @@ namespace mdn
 
     constexpr const char* PROJECT_TAGLINE =
         "Distributed MQTT TFT Display System";
+
+    constexpr char COPYRIGHT[] =
+    "Open Source Project";    
 }

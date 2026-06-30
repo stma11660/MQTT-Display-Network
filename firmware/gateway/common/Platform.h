@@ -1,5 +1,10 @@
 #pragma once
 
+namespace mdn
+{
+    constexpr char PLATFORM[] = PLATFORM_NAME;
+}
+
 #if defined(ESP8266)
 
 #include <ESP8266WiFi.h>

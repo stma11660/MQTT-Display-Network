@@ -10,7 +10,10 @@
 /*----------------------------------------------------------
   Protocol Version
 ----------------------------------------------------------*/
-constexpr uint8_t PROTOCOL_VERSION = 1;
+namespace mdn
+{
+    constexpr uint8_t PROTOCOL_VERSION = 1;
+}
 
 /*----------------------------------------------------------
   Packet Command IDs
