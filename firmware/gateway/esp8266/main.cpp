@@ -1,21 +1,13 @@
-#include "I2CBus.h"
-#include "MQTTManager.h"
-
-I2CBus bus;
-MQTTManager mqtt(&bus);
-
-void setup()
+int main()
 {
-    Serial.begin(115200);
-    delay(1000);
+    mdn::logger::begin();
 
-    Serial.println("\nESP8266 Display Gateway");
+    mdn::logger::info("MQTT Display Network");
 
-    bus.begin();
-    mqtt.begin();
-}
+    mdn::logger::info(PLATFORM_NAME);
 
-void loop()
-{
-    mqtt.loop();
+    while(true)
+    {
+
+    }
 }

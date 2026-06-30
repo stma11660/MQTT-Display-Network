@@ -6,6 +6,14 @@
 
 ---
 
+Project initiated by Stephan.
+
+Architecture and technical design developed together
+with ChatGPT (OpenAI).
+
+Everyone is welcome to contribute.
+
+
 # 🇬🇧 English
 
 ## Why this project came about
